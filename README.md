@@ -87,6 +87,16 @@ EcoVisionApp/
 └── README.md
 ```
 
+## Prints do projeto
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/26ec5ae0-3ef3-48de-8120-a3560eb0d9c6" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/47b21f01-327a-45ed-8329-eb0feeb975c9" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/21dea26b-659d-45fa-8dd0-62424426689c" />
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/708c88ed-1dd1-4aad-859d-2cf49b4c5b8a" />
+
 ---
 
 ## 🚀 Como executar o projeto
