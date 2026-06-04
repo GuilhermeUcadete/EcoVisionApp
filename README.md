@@ -1,6 +1,12 @@
 # 🌱 EcoVisionApp
 
-O **EcoVisionApp** é um aplicativo mobile desenvolvido com React Native (Expo) que tem como objetivo promover a sustentabilidade através de monitoramento, alertas e visualização de dados ambientais.
+## 📖 Sobre o projeto
+
+O **EcoVisionApp** é um aplicativo mobile desenvolvido com o objetivo de promover a conscientização ambiental e incentivar práticas mais sustentáveis no dia a dia. A aplicação utiliza tecnologias modernas de desenvolvimento, como React Native com Expo, para oferecer uma experiência acessível, intuitiva e funcional aos usuários.
+
+O projeto foi pensado para centralizar informações ambientais relevantes em uma única plataforma, permitindo que o usuário acompanhe métricas, visualize dados em tempo real e receba alertas importantes relacionados ao meio ambiente. A presença de funcionalidades como dashboard, análise de dados, sistema de alertas e visualização em mapa torna a experiência mais completa e interativa.
+
+Além disso, o EcoVisionApp integra serviços externos e APIs para coleta de dados, incluindo informações obtidas por meio de monitoramento e serviços relacionados a satélites. Isso possibilita uma análise mais precisa e atualizada do ambiente, auxiliando na tomada de decisões mais conscientes.
 
 ---
 
@@ -132,8 +138,3 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de:
 - Organização de código em componentes reutilizáveis  
 - Versionamento com Git e GitHub  
 
-
-
-## 📄 Licença
-
-Este projeto é de uso acadêmico.
