@@ -63,22 +63,27 @@ EcoVisionApp/
 ├── eslint.config.js
 
 🚀 Como executar o projeto
+
 1. Clone o repositório
+
 ```
 Shellgit clone https://github.com/GuilhermeUcadete/EcoVisionApp.gitMostrar mais linhas
 ```
 
 2. Acesse a pasta do projeto
+
 ```
 cd EcoVisionAppMostrar
 ```
 
 3. Instale as dependências
+
 ```
 npm install
 ```
 
 4. Execute o projeto
+
 ```
 npx expo start --tunnel
 ```
