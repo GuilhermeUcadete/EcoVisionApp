@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# 🌱 EcoVisionApp# 🌱 Eco **EcoVisionApp** é um aplicativo mobile desenvolvido com React Native (Expo) que tem como objetivo promover a sustentabilidade através de monitoramento, alertas e visualização de dados ambientais.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 📱 Funcionalidades
 
-1. Install dependencies
+- 📊 Dashboard com métricas ambientais
+- 🚨 Sistema de alertas
+- 🗺️ Visualização em mapa
+- 📈 Análise de dados
+- ⚙️ Configurações personalizadas
+- 🔐 Tela de login
+- 📡 Integração com dados externos
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Tecnologias utilizadas
 
-   ```bash
-   npx expo start
-   ```
+- React Native
+- Expo
+- JavaScript
+- Node.js
+- APIs externas
+- ESLint
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📂 Estrutura do projeto
 
 ```bash
-npm run reset-project
+EcoVisionApp/
+│
+├── app/                 # Telas principais do app
+│   ├── alerts.js
+│   ├── analysis.js
+│   ├── dashboard.js
+│   ├── index.js
+│   ├── login.js
+│   ├── map.js
+│   └── settings.js
+│
+├── components/          # Componentes reutilizáveis
+│   ├── AlertCard.js
+│   ├── CustomButton.js
+│   ├── Header.js
+│   ├── MapCard.js
+│   └── MetricCard.js
+│
+├── services/            # Integração com APIs e serviços externos
+│   ├── api.js
+│   └── satelliteService.js
+│
+├── utils/               # Funções auxiliares
+│   └── helpers.js
+│
+├── constants/           # Constantes do projeto
+│   └── colors.js
+│
+├── app.json
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── eslint.config.js
+
+🚀 Como executar o projeto
+1. Clone o repositório
+```
+Shellgit clone https://github.com/GuilhermeUcadete/EcoVisionApp.gitMostrar mais linhas
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Acesse a pasta do projeto
+```
+cd EcoVisionAppMostrar
+```
 
-## Learn more
+3. Instale as dependências
+```
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Execute o projeto
+```
+npx expo start --tunnel
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📡 Integrações
+O aplicativo utiliza:
 
-## Join the community
+APIs externas para obtenção de dados
+Serviços de satélite para monitoramento ambiental (via satelliteService.js)
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🎯 Objetivo
+O EcoVisionApp foi desenvolvido com o objetivo de ajudar usuários a compreenderem melhor o ambiente, fornecendo informações úteis para incentivar decisões mais sustentáveis.
+
+📚 Aprendizados
+Durante o desenvolvimento deste projeto, foram aplicados conceitos de:
+
+Desenvolvimento mobile com React Native
+Estruturação de projetos
+Consumo de APIs
+Organização de código em componentes reutilizáveis
+Boas práticas de versionamento com Git e GitHub
+└── README.md
+
